@@ -3,6 +3,10 @@
 
  ![live dice counting](imgs/livedicecounting.gif)
 
+## How to run:
+ - Tested on Python 3.7.9, numpy 1.19.5, scikit-learn 1.0.2, opencv 4.1.1
+ - python count_dice_image.py
+
 ## Notes:
 
   It's assumed that the images are all top-down with even lighting. The script has a bunch of image operations commented out to make the detection in your application easier, including cropping, scaling, compensating for lens distortion, exposure, etc.
